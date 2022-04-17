@@ -37,7 +37,9 @@
         min-height: 150px;
     }
 
-    &__img img {}
+    &__img img {
+        height: 100px;
+    }
 
     &__title {
         font-size: 2rem;

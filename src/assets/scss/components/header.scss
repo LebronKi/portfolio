@@ -1,9 +1,9 @@
-.header{
+.header {
     padding: 2rem 0;
     position: relative;
-    background: #060c21;
-    
-    &:before {
+    background-color: #060c21;
+
+    &::before {
         content: '';
         position: absolute;
         left: 0;
@@ -13,7 +13,8 @@
         background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
         z-index: -1;
     }
-    &:after {
+
+    &::after {
         content: '';
         position: absolute;
         left: 0;
@@ -24,8 +25,9 @@
         z-index: -2;
         filter: blur(15px);
     }
-    &__title{
-        font-family: "Tourney",cursive;
+
+    &__title {
+        font-family: 'Tourney', cursive;
         font-size: 4rem;
         font-weight: 800;
     }

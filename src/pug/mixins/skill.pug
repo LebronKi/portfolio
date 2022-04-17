@@ -1,4 +1,5 @@
 mixin skill(args={})
-    .skill
-        img(src=args.img, alt="args.title")
-    .skill__title=args.title
+    .skill 
+        .skill__img
+            img(src=args.img, alt=args.title)
+        .skill__title=args.title
